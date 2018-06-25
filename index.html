@@ -6,13 +6,8 @@
 </head>
 <body>
   <form>
-    <label for="lastname">Votre nom  : </label><input type="text" name="lastname" id="lastname" onkeypress="on()" />
+    <label for="lastname">Votre nom  : </label><input type="text" name="lastname" id="lastname" onkeyup="keyPress()" />
   </form>
-  <script>
-    function on(){
-      var lala = document.getElementById("lastname").value;
-      alert(lala);
-    }
-  </script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
